@@ -1,32 +1,37 @@
-import {
-  View,
-  Text,
-  StyleSheet,
-} from 'react-native';
-import React from 'react';
-import Component from './Component';
-
+import { View, Text, ScrollView, StyleSheet } from "react-native";
+import React from "react";
 
 const styles = StyleSheet.create({
   container: {
-    flex:1,
-    flexDirection:'row',
-    alignItems:'center',
-    justifyContent:'center'
+    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center"
   },
+  scrollView: {
+    borderColor: "transparent",
+    borderBottomColor: "black",
+    borderWidth: 1,
+    flexGrow: 1,
+    justifyContent: "space-around",
+    flexDirection: "row"
+  }
 });
 
-
-const App = (props) => {
-  return(
-  <View style={styles.container}>
-      <Component>
+const App = props => {
+  return (
+    <View style={styles.container}>
+      <ScrollView
+        alwaysBounceHorizontal={false}
+        contentContainerStyle={styles.scrollView}
+        horizontal
+        showsHorizontalScrollIndicator={false}
+      >
         <Text>Item</Text>
         <Text>Item</Text>
         <Text>Item</Text>
-      </Component>
+      </ScrollView>
     </View>
-
   );
 };
 export default App;

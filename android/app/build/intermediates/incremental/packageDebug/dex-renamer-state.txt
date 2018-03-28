@@ -1,4 +1,0 @@
-#Wed Mar 28 09:50:54 BST 2018
-base.0=/Users/matteohertel/Desktop/poc/rn-bug-test/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/matteohertel/Desktop/poc/rn-bug-test/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
