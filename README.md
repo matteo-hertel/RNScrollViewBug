@@ -4,7 +4,7 @@ It looks like a visual regression bug has been introduced between version 0.49 a
 
 Screenshots:
 
-![screenshot](./RNBug.png)
+![screenshot](./RnBug.png)
 
 
 To replicate the bug clone this repository and run:
